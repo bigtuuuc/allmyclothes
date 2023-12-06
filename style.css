@@ -1,0 +1,92 @@
+body {
+	background: rgb(150,150,150);
+	color: rgb(150,150,150);
+	font-family: 'Source Code Pro', monospace;
+	font-size: 16px;
+	text-align: justify;
+}
+
+
+h1, h2, h4{
+	font-family: 'Source Code Pro', monospace;
+	text-align: center;
+}
+
+
+h1{
+	font-size: 32px;
+	font-weight: 900;
+	text-align: center;
+}
+
+h2{
+	font-size: 28px;
+	font-weight: 900;
+}
+
+h4{
+	font-size:20px;
+}
+
+a {
+  color: rgb(145, 54, 181);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: rgb(228, 183, 229);
+}
+
+.container {
+	width: 1000px;
+	margin: 40px auto;
+}
+
+.card-darkgrey {
+	background-color:rgb(25,25,25);
+	padding: 40px;
+	margin: 20px;
+	border-radius: 20px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card-lightgrey{
+		background-color: rgb(150,150,150);
+		padding:20px;
+		margin:20px;
+		border-radius:10px;
+		color:rgb(25,25,25);
+		box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card-lightgrey p{
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+.img-circle {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;	
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
